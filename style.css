@@ -1,0 +1,30 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+        font-family: 'Varela Round';
+}
+
+canvas { 
+	position:fixed; 
+	top:0; 
+	left:0; 
+	z-index:1; 
+}
+
+#contenu { 
+	position:relative; 
+	z-index:2; 
+}
+
+p{
+	margin-top: 100px!important;
+	padding-left: 140px;
+	max-width: 340px!important;
+	text-align: justify;
+	font-size: 18px;
+}
+
+sub {
+	background-color: rgba(250,170, 0, 1);
+}
